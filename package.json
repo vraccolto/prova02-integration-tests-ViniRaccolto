@@ -30,16 +30,17 @@
     "eslint": "eslint \"**/**.[jt]s?(x)\" -o output/eslint.html -f html",
     "scenario": "jest serve_rest.spec.ts --config ./jest.config.js",
     "test": "jest --config ./jest.config.js",
+    "test:prova": "jest test_prova --config ./jest.config.js --runInBand",
     "ci": "npm run clean && npm run format && npm run verify && npm run eslint && npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ugioni/integration-tests-jest.git"
+    "url": "git+https://github.com/vraccolto/prova02-integration-tests-ViniRaccolto.git"
   },
-  "author": "leandro.ugioni",
+  "author": "vinicius.raccolto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ugioni/integration-tests-jest/issues"
+    "url": "https://github.com/vraccolto/prova02-integration-tests-ViniRaccolto/issues"
   },
-  "homepage": "https://github.com/ugioni/integration-tests-jest#readme"
+  "homepage": "https://github.com/vraccolto/prova02-integration-tests-ViniRaccolto#readme"
 }
