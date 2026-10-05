@@ -9,7 +9,7 @@ module.exports = {
     [
       'jest-html-reporters',
       {
-        publicPath: './test_prova/output',
+        publicPath: './output/test_prova',
         filename: 'report.html',
         pageTitle: 'Integration Tests with Jest and Pactum',
         logoImgPath: './assets/jest-logo.png',
